@@ -35,6 +35,29 @@
     let intro= "My name is";
     let greeting=intro+" "+name;
     console.log(greeting);
+
+    console.log("Using functions");
+
+    //function to make square numbers
+    function makeSquare(theNumb){
+      let squared=theNumb * theNumb;
+      return squared;
+    }
+      let try01=makeSquare(3);
+      console.log(try01);
+      let try02=makeSquare(16);
+      console.log(try02);
+      let try03=makeSquare(141);
+      console.log(try03);
+
+      //Functions on my own
+      function completeName(firstName, middleName, lastName){
+        let fullName=firstName+" "+middleName+" "+lastName;
+        return fullName;
+      }
+        console.log(completeName("Henry","Ira","Corwin"));
+        console.log(completeName("John", "F", "Kennedy"));
+        console.log(completeName("Robert", "\"Beto\"","O'Rourke"))
   </script>
 </body>
 </html>
